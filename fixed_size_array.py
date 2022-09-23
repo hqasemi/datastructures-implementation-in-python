@@ -2,8 +2,8 @@ from typing import Any
 
 
 class FixedSizeArray:
-    """ 
-    This class implemenets fixed-size array, as python does not have 
+    """
+    This class implemenets fixed-size array, as python does not have
     a build-in fixed array implementation
     """
 
@@ -26,17 +26,16 @@ class FixedSizeArray:
     def __getitem__(self, key: int):
         return self.__array[key]
 
-    def __setitem__(self, key:int ,value: Any):
+    def __setitem__(self, key: int, value: Any):
         self.__validate_index(key)
         self.__array[key] = value
 
     def __len__(self):
         return self.__array_size
-    
+
     def __str__(self):
         return str(self.__array)
 
     def __repr__(self):
         return f"{self.__class__.__name__}({self.__array_size})"
-
 
