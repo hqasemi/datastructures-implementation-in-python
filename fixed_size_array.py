@@ -3,7 +3,7 @@ from typing import Any
 
 class FixedSizeArray:
     """
-    This class implemenets fixed-size array, as python does not have
+    This class implements fixed-size array, as python does not have
     a build-in fixed array implementation
     """
 
