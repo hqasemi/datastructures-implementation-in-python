@@ -1,4 +1,4 @@
-# Datastructures implementation in Python
+# Data structures implementation in Python
 ## Overview
 This repository is dedicated to the implementation of various data structures in Python. 
 
